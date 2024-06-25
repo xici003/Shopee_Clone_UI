@@ -1,0 +1,150 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    :root{
+        --navbar-height: 0px;
+        --header-height: 80px;
+    }
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header{
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .app__container{
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+    }
+    .header__cart-list{
+        position: fixed;
+        top: var(--header-height);
+        right: 0px;
+        width: 100%;
+        padding: 0 calc((100% - 644px)/2);
+    }
+    .header__cart-list::after{
+        display: none;
+    }
+    .header__cart-list-item{
+        padding-left: 0;
+        list-style: none;
+        max-height: 20vh;
+        overflow-y: auto;
+    }
+
+    .header__sort-bar{
+        display: flex;
+    }
+
+    .app__content{
+        padding-top: 8px;
+    }
+
+    .mobile-category{
+        display: flex;
+    }
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__cart{
+        width: 80px;
+        text-align: center;
+    }
+    .header__logo{
+        width: 150px;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .header__search{
+        justify-content: space-around;
+    }
+
+    .header__mobile{
+        display: flex;
+    }
+
+    .header__mobile-btn-icon,.header__mobile-menu{
+        display: block;
+    }
+
+    .header__logo,.header__cart{
+        width: unset;
+    }
+
+    .header__find{
+        position: fixed;
+        top:var(--header-height);
+        left: 0;
+        right: 0;
+        height: 48px;
+        border: 1px solid #e5e4e4;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        z-index: 1;
+        padding: 0 8px;
+        animation: mobileFindSideIn linear 0.3s ;
+        display: none;
+    }
+
+    .header__find-history{
+        position: fixed;
+        width: 100%;
+        top: calc(var(--header-height) + var(--header-sort-bar-height));
+        left: 0;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        border: 1px solid #e5e4e4;
+    }
+
+    .pagination-item {
+        margin: 0 1px;
+    }
+
+    .pagination-item__link {
+        --height: 28px;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #939393;
+        min-width: 35px;
+        height: var(--height);
+        line-height: var(--height);
+        border-radius: 2px;
+        display: block;
+        text-align: center;
+    }
+
+    .app__content{
+        margin: 0 4px;
+    }
+
+    .footer__content{
+        padding: 0 30px;
+    }
+    @keyframes mobileFindSideIn {
+        from{
+            opacity: 0;
+            top:calc(var(--header-height)/2);
+        }
+        to {
+            opacity: 1;
+            top: var(--header-height);
+        }
+    }
+
+
+
+} 

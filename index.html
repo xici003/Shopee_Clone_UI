@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            
+            <div class="grid wide"> 
+
+                <!--Navbar-->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item navbar-item--separate appear_QR ">
+                            Vào cửa hàng trên ứng dụng
+
+                            <!--Header QR-->
+                            <div class="header__QR">
+                                <img src="./assets/img/QR.png" alt="" class="header__QR-img">
+                                <div class="header__QR-apps">
+                                    <a href="" class="QR-apps-link"><img src="./assets/img/GooglePlay.png" alt="" class="QR-apps-dow"></a>
+                                    <a href=""class="QR-apps-link"><img src="./assets/img/AppStore.png" alt="" class="QR-apps-dow"></a>    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="No-pointer">Kết Nối</span>
+                            <a href="" class="navbar-icon-link"><i class="navbar-icon fa-brands fa-facebook"></i></a>
+                            <a href="" class="navbar-icon-link"><i class="navbar-icon fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item notify--appear">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="navbar-icon fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://minisovietnam.com.vn/mediacenter/media/images/1229/products/1229/1501/19-1522382596.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Giao kiện hàng thành công</span>
+                                                <span class="header__notify-des">Kiện hàng GAMWMPEM của đơn hàng 230524HT938F5 đã giao thành công đến bạn</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/OHUI.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực hàng chính hãng nguồn gốc các sản phẩm OHUI</span>
+                                                <span class="header__notify-des">Hidden Tag là giải pháp xác thực hàng chính hãng công nghệ tiên tiến nhất hiện nay</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://finatech.s3.ap-southeast-1.amazonaws.com/20220929/18598389/Shopee.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Hoàn tất thanh toán</span>
+                                                <span class="header__notify-des">Vui lòng thanh toán trước 07-06-2023 00:24</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="navbar-icon fa-regular fa-circle-question"></i>
+                                Trợ Giúp</a>
+                        </li>
+                        <!-- <li class="header__navbar-item navbar-item-strong">Đăng Ký</li>
+                        <li class="header__navbar-item navbar-item-strong">Đăng nhập</li> -->
+
+                        <li class="header__navbar-item header__navbar-user">
+                            <img class="header__navbar-user-img" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="">
+                            <span class="header__navbar-user-name">Chi Quynh</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Địa chỉ của tôi</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-separate">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Search-->
+                <div class="header__search">
+                <!-- Only Mobile -->
+                <div class="header__mobile">
+                    <div class="menu__overlay"></div>
+                        <i class="header__mobile-menu fa-solid fa-bars"></i>
+
+                    <nav class="nav__mobile">
+                        <div class="nav__mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+
+                        <ul class="header__mobile-navbar">
+                            <li class="header__mobile-navbar-item">
+                                <a href="#" class="header__mobile-navbar-link">Tài khoản của tôi</a>
+                            </li>
+
+                            <li class="header__mobile-navbar-item">
+                                <a href="#" class="header__mobile-navbar-link">Địa chỉ của tôi</a>
+                            </li>
+
+                            <li class="header__mobile-navbar-item">
+                                <a href="#" class="header__mobile-navbar-link">Đơn mua</a>
+                            </li>
+
+                            <li class="header__mobile-navbar-item">
+                                <a href="#" class="header__mobile-navbar-link">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                    <label class="header__mobile-search" for="mobile-search-checkbox">
+                        <i class="header__mobile-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </label>
+                </div>
+                
+                <!-- PC & Tablet -->
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img class="header__logo-img" src="./assets/img/shopee-logo.png" alt="">
+                        </a>
+                    </div>
+                    
+                    <!-- Checkbox -->
+                    <input type="checkbox" hidden id="mobile-menu-checkbox" class="header__menu-checkbox">
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__find-checkbox">
+                    <div class="header__find">
+
+                        <div class="header__find-input-wrap">
+                            <input type="text" class="header__find-input" placeholder="Nhập để tìm kiếm sản phẩm" onkeyup="searchFunc()">
+
+                            <!--Find history-->
+                            <div class="header__find-history">
+                                <h3 class="header__find-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__find-history-list">
+                                    <li class="header__find-history-item">
+                                        <a href="">Bàn Phim</a>
+                                    </li>
+                                    <li class="header__find-history-item">
+                                        <a href="">Chuột</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header__find-select">
+                            <span class="header__find-select-label">Trong shop</span>
+                            <i class="select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__find-option">
+                                <li class="header__find-option-item header__find-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__find-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__find-btn">
+                            <i class="header__find-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                       
+                    </div>
+                    
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+
+                            <span class="header__cart-notice">3</span>
+                            <!--No cart: header__cart-list--none-->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-none-img">
+                                <span class="header__cart-none-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                            
+                            <!--Cart item-->
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/793187b9-6545-4f1e-8246-d1e4c42803ae/maki22309_r2.jpg" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Bộ kem dưỡng trắng</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">2.000.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">2</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1671853906962-RV08WWNIS1LTNE453MOX/Artboard%2B2.jpg?format=750w" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Kem dưỡng da ban ngày</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">600.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">1</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://kyma.vn/StoreData/images/PageData/chup-anh-san-pham-la-gi-11.webp" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Bộ combo dầu gội - xả</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">400.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">1</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://kyma.vn/StoreData/images/PageData/chup-anh-san-pham-la-gi-11.webp" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Bộ combo dầu gội - xả</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">400.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">1</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://kyma.vn/StoreData/images/PageData/chup-anh-san-pham-la-gi-11.webp" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Bộ combo dầu gội - xả</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">400.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">1</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="https://kyma.vn/StoreData/images/PageData/chup-anh-san-pham-la-gi-11.webp" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-info-head">
+                                                <h5 class="header__cart-info-name">Bộ combo dầu gội - xả</h5>
+                                                <div class="header__cart-info-price-wrap">
+                                                    <span class="header__cart-info-price">400.000đ</span>
+                                                    <span class="header__cart-info-multiply">x</span> 
+                                                    <span class="header__cart-info-qnt">1</span>   
+                                                </div>                              
+                                            </div>
+                                            <div class="header__cart-info-body">
+                                                <span class="header__cart-info-des">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="header__cart-info-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    
+                                </ul>
+
+                                <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+           
+        </div>
+
+        <div class="app__container">
+            <div class="grid wide">
+                
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Sản Phẩm</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kem bôi mắt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kem bôi body dưỡng trắng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kem dưỡng da</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter--label">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn" data-name="all">Tất cả</button>
+                            <button class="home-filter-btn btn" data-name="popular">Phổ biến</button>
+                            <button class="home-filter-btn btn" data-name="new">Mới nhất</button>
+                            <button class="home-filter-btn btn" data-name="best-seller">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-icon fa-solid fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-curent">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile category -->
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị cần thiết</a>
+                                </li>
+
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Mỹ phẩm</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện tử</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ chơi</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thời trang nam & nữ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Sức Khoẻ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Mẹ & Bé</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Điện Thoại & Phụ Kiện</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dung học tập</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ ăn vặt</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Giày dép nam & nữ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng thể tha0</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Nhà sách online</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thể thao & Du lịch</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Phụ kiện và trang sức nữ</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+                                <div class="col l-2-4 m-4 c-6" data-name="popular">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="new">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://bazaarvietnam.vn/wp-content/uploads/2023/01/harper-bazaar-top-mat-na-tot-nhat-hien-nay-3.jpeg);"></div>
+                                        <h4 class="product-item__name">Mặt nạ dưỡng da, mặt nạ dưỡng trắng cấp ẩm mờ thâm bổ sung collagen tinh chất ốc sên Nội Địa Trung</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">3.500</span>
+                                            <span class="product-item__price--new">2.150</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">1,1tr đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Mặt nạ</span>
+                                            <span class="product-item__origin-name">Trung Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">10%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="popular">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://product.hstatic.net/200000712081/product/z4324991166344_a6c67c9663bf5a3d48c7c6b9a089e21b_1bab000adc844cd68025248e1fd53a10_large.jpg);"></div>
+                                        <h4 class="product-item__name">[Hàng mới về] Bộ mỹ phẩm sưu tầm THE FACE SHOP Yehwadam phục hồi sức sống từ hoa mận</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">700.000</span>
+                                            <span class="product-item__price--new">627.285</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">18 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">The Face Shop</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">11%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="best-seller">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://product.hstatic.net/1000379579/product/6376fa0b682ec032c83056036c1d4d7c_b3f6c89229cf4c50b146cbf278d5982e_master.jpg);"></div>
+                                        <h4 class="product-item__name">Set 3 mỹ phẩm trang điểm FOCALLURE 140g chất lượng cao</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">296.000</span>
+                                            <span class="product-item__price--new">149.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">1,5k đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">FOCALLURE</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">22%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="popular">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://file.hstatic.net/1000006063/file/1097_052c525b010c4154bb2fc4dd0cb3903e_2048x2048.jpg);"></div>
+                                        <h4 class="product-item__name">PinkFlash Bộ 5 mỹ phẩm gồm phấn nền dạng nén + phấn mắt + phấn má hồng + son mềm mại lên màu đậm chất lượng cao</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">500.000</span>
+                                            <span class="product-item__price--new">450.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">PinkFlash</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">10%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6"  data-name="new">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="popular">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="best-seller">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="popular">
+                                    <a class="home-product-item" href="#" >
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6" data-name="new">
+                                    <a class="home-product-item" href="#"  >
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#" data-name="popular">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#" data-name="best-seller">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#" data-name="popular">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#" data-name="new">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#" data-name="best-seller">
+                                        <div class="product-item__img" style="background-image: url(https://tuonglamphotos.com/wp-content/uploads/2021/07/dich-vu-chup-anh-san-pham-tuonglamphotos-6-1024x683.jpg);"></div>
+                                        <h4 class="product-item__name">Set dưỡng trắng Đông y hoàng cung Seabolt chính hãng mua 2 tặng 1 </h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price--old">1.200.000</span>
+                                            <span class="product-item__price--new">999.000</span>
+                                        </div>
+
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__star">
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="product-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <span class="product-item__sold">70 đã bán</span>
+                                        </div>
+
+                                        <div class="product-item__origin">
+                                            <span class="product-item__origin-brand">Seabold</span>
+                                            <span class="product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item startBtn" id="prev">
+                                <a href="#" class="pagination-item__link ">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item number pagination-item--active">
+                                <a href="#" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">6</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item number">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item endBtn " id="next">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>   
+        
+        </div>
+
+        <div class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Shop Mall</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Giới thiệu về Shop</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Mỹ phẩm</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Trang sức</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">Mặt nạ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="footer__list-link-icon fa-brands fa-facebook"></i>
+                                    FaceBook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="footer__list-link-icon fa-brands fa-square-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="footer__list-link-icon fa-brands fa-square-twitter"></i>
+                                    Twiter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Vào cửa hàng theo ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/QR.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/GooglePlay.png" alt="" class="footer__download-app">   
+                                </a>
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/AppStore.png" alt="" class="footer__download-app">   
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="#" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <div class="sort-item-price">
+                        <a href="#" class="header__sort-link">Giá</a>
+                        <i class="select-icon fa-solid fa-chevron-down"></i>
+                        <ul class="sort-input__list">
+                            <li class="select-input__item">
+                                <a href="#" class="select-input__link">Giá thấp đến cao</a>
+                            </li>
+                            <li class="select-input__item">
+                                <a href="#" class="select-input__link">Giá cao đến thấp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                        <p class="footer_text">&copy 2023 - Bản quyền thuộc về ChiQuynh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Layout-->
+  <!--  <div class="modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__body"> -->
+
+            <!-- Register form-->
+          <!--   <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__info">
+                            Bằng việc đăng ký, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__info-link">Điều khoản dịch vụ</a>
+                            &
+                            <a href="" class="auth-form__info-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>  
+                        
+                    <div class="auth-form__controls">
+                        <button class="btn control-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="social-FB btn btn--size-s btn--width-icon">
+                        <i  class="social-icon fa-brands fa-square-facebook"></i>
+                        
+                        <span class="social-text">Kết Nối Với FaceBook</span>
+                    </a>
+
+                    <a href="" class="social-GG btn btn--size-s btn--width-icon">
+                        <img class="social-icon img-gg" src="./assets/img/google.png" alt="">
+                        <span class="social-text">Kết Nối Với Google</span>
+                        
+                    </a>
+                </div>
+            </div>  -->  
+
+            <!--Login form-->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+                    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-f">Quên mật khẩu</a>
+                            <span class="auth-form__separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>  
+                        
+                    <div class="auth-form__controls">
+                        <button class="btn control-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="social-FB btn btn--size-s btn--width-icon">
+                        <i  class="social-icon fa-brands fa-square-facebook"></i>
+                        
+                        <span class="social-text">Kết Nối Với FaceBook</span>
+                    </a>
+
+                    <a href="" class="social-GG btn btn--size-s btn--width-icon">
+                        <img class="social-icon img-gg" src="./assets/img/google.png" alt="">
+                        <span class="social-text">Kết Nối Với Google</span>
+                        
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div> -->
+    <script src="./assets/js/main.js">
+        
+    </script>
+</body>
+</html>
